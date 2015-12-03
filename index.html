@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html ng-app="chuckJokes">
+  <head>
+    <meta charset="utf-8">
+    <title>Chuck Norris Jokes LOL</title>
+    <link rel='stylesheet' type="text/css" href = 'style.css' />
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular-resource.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+  </head>
+  <body >
+    <div id="main" ng-controller="Ctrl">
+      <h1>Chuck Norris Joke Bank</h1>
+      <button ng-click=fetch()>Roundhouse joke me!</button> <br/>
+      <input type="checkbox" ng-model="string">No explcit jokes</input> <br/>
+      <div id="joke"><p>{{search.joke}}<p></div>
+    </div>
+  </body>
+</html>

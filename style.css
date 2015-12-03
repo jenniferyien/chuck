@@ -1,0 +1,40 @@
+body {
+  background-color: #3E3E3E;
+  color: #89CFCC;
+  font-family: Futura, sans-serif;
+}
+
+#main {
+  margin: auto;
+  text-align: center;
+  padding: 50px 0;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+button {
+  font:2.4em;
+  font-size:100%;
+  padding:14px;
+  background-color:#FF594A;
+  border:1px solid #FF594A;
+  border-radius:5px;
+  cursor:pointer;
+  width:30%;
+}
+
+input {
+  margin: 2% 10px;
+}
+
+#joke {
+  margin: 2%;
+  width: 50vw;
+  padding: 3%;
+  text-align: center;
+  clear: both;
+  display: inline-block;
+  border: 1px dashed #FFF5B3;
+}
